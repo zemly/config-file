@@ -1,0 +1,1704 @@
+# 这个 viminfo 文件是由 Vim 7.4 所产生。
+# 如果想要自行修改请特别小心！
+
+# 文件被写的时候 ‘encoding’ 的值
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 上个 Search 图案：
+~MSle0/modbus
+
+# 上个 替换 Search 图案：
+~MSle0~&fd
+
+# 最后替换的字符串
+$client_socket
+
+# 命令行 历史记录 (从新到旧)：
+:wq
+:q
+:w
+:e
+:%s/fd/client_socket/g
+:5
+:1
+:W
+:39
+:s
+:zf
+:zc
+:help zf
+:ZC
+:60zf
+:zf60j
+:zf %
+:zf%
+:q!
+:bn
+
+# 查找字符串 历史记录 (从新到旧)：
+? fd
+?/J
+?/modbus
+?/disk
+?/ivib
+?/Disk
+?/HPD
+?/1617
+?/dm
+?/dm9
+?/addser
+?/run
+?/Modbus
+?/url
+?/B9600
+?/DiskS
+?/ttyfd
+?/termio
+?/tsaved
+?/TCGETA
+
+# 表达式 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 寄存器:
+"0	LINE	0
+	        Log.i("ModbusService","go to get LED Stub...");
+""1	LINE	0
+	        cout << "connet error,try again!" << endl;
+"2	LINE	0
+	    memset(file_name, 0, sizeof(char) * MAXNAME);
+"3	LINE	0
+	    memset(&s_add, 0, sizeof(struct sockaddr_in));
+	    s_add.sin_family = AF_INET;
+	    s_add.sin_addr.s_addr = inet_addr("115.156.197.159");
+	    s_add.sin_port = htons(0);
+	    
+	    for(int i = 0; i < MAXSLEEP; i <<= 1) {
+	        if((fd = socket(AF_INET, SOCK_STREAM, 0)) <<= 1) {
+	            err_exit(fd, "cant create socket");
+	        }
+	
+	        if((connect(fd, (struct sockaddr *)&s_add, sizeof(struct sockaddr))) == 0) {
+	            cout << "connect succeed!" << endl;
+	            break;
+	        }
+	
+	        close(fd);
+	    
+	        if(i <= MAXSLEEP/2)
+	            sleep(numsec);
+"4	LINE	0
+	            return fd;
+"5	LINE	0
+	    int numsec;
+"6	LINE	0
+	            cout << ""
+"7	LINE	0
+	        goto errout;
+"8	LINE	0
+	        cout << "connect fail !" << endl;
+"9	LINE	0
+	    }
+"-	CHAR	0
+	 
+
+# 文件标记:
+'Z  1  32  /workspace/git/helloworld-git/.git-credentials
+'0  1  32  /workspace/git/helloworld-git/.git-credentials
+'1  54  28  /home/shared/sockettest/client.cpp
+'2  20  0  /home/shared/sockettest/client.cpp
+'3  9  36  /back/android-4.1.2/modbus-build.sh
+'4  10  17  /home/shared/sockettest/host.c
+'5  73  0  /home/shared/socket/server.c
+'6  128  47  /back/android-4.1.2/hardware/libhardware/modules/modbus/modbus.c
+'7  47  30  /back/android-4.1.2/frameworks/base/services/modbus_jni/com_mokoid_server_ModbusService.cpp
+'8  104  17  /back/android-4.1.2/frameworks/base/services/modbus_jni/com_mokoid_server_ModbusService.cpp
+'9  4  23  /back/android-4.1.2/packages/experimental/modbustest/Android.mk
+
+# 跳转列表 (从新到旧):
+-'  1  32  /workspace/git/helloworld-git/.git-credentials
+-'  54  28  /home/shared/sockettest/client.cpp
+-'  38  19  /home/shared/sockettest/client.cpp
+-'  56  34  /home/shared/sockettest/client.cpp
+-'  9  17  /home/shared/sockettest/client.cpp
+-'  17  0  /home/shared/sockettest/client.cpp
+-'  23  35  /home/shared/sockettest/client.cpp
+-'  28  4  /home/shared/sockettest/client.cpp
+-'  33  27  /home/shared/sockettest/client.cpp
+-'  30  0  /home/shared/sockettest/client.cpp
+-'  68  0  /home/shared/sockettest/client.cpp
+-'  20  0  /home/shared/sockettest/client.cpp
+-'  29  8  /home/shared/sockettest/client.cpp
+-'  1  18  /home/shared/sockettest/client.cpp
+-'  9  36  /back/android-4.1.2/modbus-build.sh
+-'  6  77  /back/android-4.1.2/modbus-build.sh
+-'  10  17  /home/shared/sockettest/host.c
+-'  1  0  /home/shared/sockettest/host.c
+-'  73  0  /home/shared/socket/server.c
+-'  27  0  /home/shared/socket/server.c
+-'  128  47  /back/android-4.1.2/hardware/libhardware/modules/modbus/modbus.c
+-'  1  0  /back/android-4.1.2/hardware/libhardware/modules/modbus/modbus.c
+-'  47  30  /back/android-4.1.2/frameworks/base/services/modbus_jni/com_mokoid_server_ModbusService.cpp
+-'  50  41  /back/android-4.1.2/frameworks/base/services/modbus_jni/com_mokoid_server_ModbusService.cpp
+-'  104  17  /back/android-4.1.2/frameworks/base/services/modbus_jni/com_mokoid_server_ModbusService.cpp
+-'  115  45  /back/android-4.1.2/frameworks/base/services/modbus_jni/com_mokoid_server_ModbusService.cpp
+-'  119  40  /back/android-4.1.2/frameworks/base/services/modbus_jni/com_mokoid_server_ModbusService.cpp
+-'  4  23  /back/android-4.1.2/packages/experimental/modbustest/Android.mk
+-'  1  0  /back/android-4.1.2/packages/experimental/modbustest/Android.mk
+-'  25  0  /back/android-4.1.2/packages/experimental/modbustest/src/com/example/modbustest/MainActivity.java
+-'  660  14  /back/android-4.1.2/frameworks/base/services/java/com/android/server/SystemServer.java
+-'  78  0  /back/android-4.1.2/frameworks/base/services/java/com/android/server/SystemServer.java
+-'  1  0  /back/android-4.1.2/frameworks/base/services/modbus_jni/com_mokoid_server_ModbusService.cpp
+-'  24  48  /opt/FriendlyARM/tiny4412/android/android-4.1.2/packages/experimental/modbustest/src/com/example/modbustest/MainActivity.java
+-'  38  7  /opt/FriendlyARM/tiny4412/android/android-4.1.2/packages/experimental/modbustest/src/com/example/modbustest/MainActivity.java
+-'  20  0  /opt/FriendlyARM/tiny4412/android/android-4.1.2/packages/experimental/modbustest/java/com/mokoid/server/ModbusService.java
+-'  1  17  /opt/FriendlyARM/tiny4412/android/android-4.1.2/packages/experimental/modbustest/java/com/mokoid/server/ModbusService.java
+-'  39  11  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/NativeDaemonEvent.java
+-'  1  0  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/NativeDaemonEvent.java
+-'  15  35  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/ModbusService.java
+-'  17  34  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/ModbusService.java
+-'  1  0  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/ModbusService.java
+-'  16  40  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/IModbusService.java
+-'  3  18  /workspace/modbus_service/ModbusService.java
+-'  1  0  /workspace/modbus_service/ModbusService.java
+-'  10  4  /workspace/modbus_service/IModbusService.java
+-'  13  0  /workspace/modbus_service/IModbusService.java
+-'  7  0  /workspace/modbus_service/IModbusService.java
+-'  18  0  /workspace/modbus_service/IModbusService.java
+-'  1  0  /workspace/modbus_service/IModbusService.java
+-'  1  3  /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal_service/jar_build.sh
+-'  2  72  /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal_service/jar_build.sh
+-'  1  0  /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal_service/bin/classes/mobile/android/leds/hal/service/ledhalservice.class
+-'  1  0  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/IModbusService.java
+-'  137  42  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/Android.mk
+-'  138  42  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/Android.mk
+-'  1  0  /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal_jni/build.sh
+-'  19  4  /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal/build.sh
+-'  1  0  /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal/build.sh
+-'  9  18  /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal/Android.mk
+-'  1  0  /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal/Android.mk
+-'  14  35  /home/Android-examples/sources/ch09/s3c6410_leds_hal/build_s3c6410.sh
+-'  1  0  /home/Android-examples/sources/ch09/s3c6410_leds_hal/build_s3c6410.sh
+-'  1  0  /home/Android-examples/sources/ch09/s3c6410_leds_hal/build.sh
+-'  243  18  /opt/FriendlyARM/tiny4412/android/android-4.1.2/system/core/init/init.c
+-'  1  0  /opt/FriendlyARM/tiny4412/android/android-4.1.2/system/core/init/init.c
+-'  659  64  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/SystemServer.java
+-'  660  0  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/SystemServer.java
+-'  658  0  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/SystemServer.java
+-'  289  0  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/SystemServer.java
+-'  1  0  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/SystemServer.java
+-'  1  0  /usr/lib/jvm/NERD_tree_1
+-'  12  2  /usr/lib/jvm/NERD_tree_1
+-'  6  0  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/core/java/android/os/IModbusService.aidl
+-'  1  0  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/core/java/android/os/IModbusService.aidl
+-'  19  38  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/jni/Android.mk
+-'  20  13  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/jni/Android.mk
+-'  67  46  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/jni/onload.cpp
+-'  69  26  /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/jni/onload.cpp
+-'  18  60  /opt/FriendlyARM/tiny4412/android/android-4.1.2/hardware/libhardware/include/hardware/modbus.h
+-'  21  0  /opt/FriendlyARM/tiny4412/android/android-4.1.2/hardware/libhardware/include/hardware/modbus.h
+-'  9  0  /opt/FriendlyARM/tiny4412/android/android-4.1.2/hardware/libhardware/modules/modbus/Android.mk
+-'  1  0  /opt/FriendlyARM/tiny4412/android/android-4.1.2/hardware/libhardware/modules/modbus/Android.mk
+-'  81  0  /opt/FriendlyARM/tiny4412/android/android-4.1.2/hardware/libhardware/modules/modbus/modbus.c
+-'  50  109  /opt/FriendlyARM/tiny4412/android/android-4.1.2/hardware/libhardware/modules/modbus/modbus.c
+-'  323  53  /home/shared/linuxmbus/seri1.c
+-'  347  18  /home/shared/linuxmbus/seri1.c
+-'  312  32  /home/shared/linuxmbus/seri1.c
+-'  18  0  /home/shared/sockettest/client.cpp
+-'  27  8  /home/shared/sockettest/client.cpp
+-'  9  36  /back/android-4.1.2/modbus-build.sh
+-'  6  77  /back/android-4.1.2/modbus-build.sh
+-'  10  17  /home/shared/sockettest/host.c
+-'  1  0  /home/shared/sockettest/host.c
+-'  73  0  /home/shared/socket/server.c
+-'  27  0  /home/shared/socket/server.c
+-'  128  47  /back/android-4.1.2/hardware/libhardware/modules/modbus/modbus.c
+-'  1  0  /back/android-4.1.2/hardware/libhardware/modules/modbus/modbus.c
+
+# 文件内的标记历史记录 (从新到旧):
+
+> /workspace/git/helloworld-git/.git-credentials
+	"	1	32
+	^	1	33
+	.	1	32
+	+	1	32
+
+> /home/shared/sockettest/client.cpp
+	"	54	28
+	^	32	54
+	.	46	0
+	+	50	46
+	+	50	0
+	+	50	4
+	+	50	36
+	+	50	73
+	+	50	35
+	+	50	19
+	+	69	0
+	+	50	11
+	+	70	96
+	+	70	0
+	+	57	0
+	+	52	5
+	+	6	18
+	+	50	55
+	+	50	45
+	+	50	39
+	+	1	18
+	+	50	0
+	+	8	17
+	+	9	0
+	+	14	0
+	+	15	19
+	+	50	3
+	+	50	40
+	+	50	0
+	+	50	9
+	+	50	0
+	+	29	0
+	+	50	0
+	+	50	58
+	+	50	46
+	+	50	0
+	+	50	84
+	+	50	0
+	+	50	21
+	+	50	18
+	+	50	0
+	+	24	0
+	+	24	0
+	+	50	39
+	+	50	27
+	+	50	25
+	+	50	0
+	+	50	47
+	+	50	18
+	+	9	19
+	+	11	0
+	+	17	23
+	+	17	1
+	+	17	19
+	+	17	25
+	+	17	0
+	+	23	17
+	+	28	25
+	+	28	25
+	+	29	0
+	+	50	0
+	+	17	0
+	+	17	9
+	+	17	3
+	+	17	0
+	+	9	0
+	+	52	4
+	+	16	19
+	+	52	28
+	+	53	49
+	+	53	0
+	+	52	35
+	+	17	20
+	+	53	25
+	+	54	46
+	+	55	50
+	+	56	35
+	+	21	0
+	+	60	0
+	+	58	24
+	+	37	41
+	+	38	20
+	+	49	18
+	+	56	39
+	+	36	64
+	+	25	5
+	+	28	6
+	+	49	18
+	+	46	49
+	+	32	53
+	+	46	0
+
+> /back/android-4.1.2/modbus-build.sh
+	"	9	36
+	^	6	78
+	.	6	77
+	+	3	11
+	+	1	11
+	+	7	0
+	+	1	7
+	+	9	0
+	+	3	0
+	+	7	0
+	+	4	36
+	+	5	40
+	+	6	77
+	i	1	0
+
+> /home/shared/sockettest/host.c
+	"	10	17
+	^	10	18
+	.	10	17
+	+	6	30
+	+	7	1
+	+	10	10
+	+	9	0
+	+	10	17
+
+> /home/shared/socket/server.c
+	"	73	0
+	^	137	51
+	.	137	50
+	+	9	37
+	+	10	1
+	+	11	21
+	+	12	30
+	+	12	31
+	+	14	29
+	+	17	31
+	+	20	26
+	+	23	50
+	+	23	50
+	+	28	39
+	+	71	0
+	+	29	1
+	+	30	21
+	+	11	16
+	+	23	66
+	+	30	21
+	+	11	17
+	+	31	31
+	+	33	30
+	+	36	20
+	+	35	23
+	+	36	26
+	+	39	26
+	+	42	26
+	+	45	50
+	+	50	38
+	+	51	1
+	+	52	17
+	+	45	63
+	+	24	5
+	+	25	16
+	+	46	5
+	+	47	16
+	+	52	20
+	+	53	26
+	+	53	31
+	+	54	20
+	+	55	10
+	+	54	0
+	+	56	38
+	+	57	31
+	+	58	39
+	+	59	28
+	+	60	40
+	+	61	28
+	+	62	0
+	+	64	0
+	+	62	40
+	+	63	27
+	+	64	37
+	+	65	28
+	+	66	32
+	+	67	23
+	+	122	15
+	+	93	0
+	+	72	39
+	+	73	1
+	+	74	18
+	+	69	16
+	+	75	27
+	+	77	27
+	+	79	22
+	+	80	28
+	+	83	27
+	+	85	0
+	+	84	17
+	+	86	34
+	+	89	29
+	+	91	16
+	+	122	25
+	+	123	26
+	+	124	24
+	+	125	28
+	+	126	71
+	+	127	38
+	+	128	57
+	+	129	80
+	+	130	59
+	+	131	52
+	+	140	20
+	+	141	12
+	+	23	36
+	+	5	21
+	+	108	26
+	+	7	23
+	+	140	0
+	+	132	24
+	+	133	45
+	+	134	11
+	+	100	30
+	+	134	58
+	+	135	64
+	+	104	46
+	+	135	85
+	+	136	59
+	+	137	55
+	+	138	24
+	+	104	35
+	+	137	50
+
+> /back/android-4.1.2/hardware/libhardware/modules/modbus/modbus.c
+	"	128	47
+	^	128	65
+	.	128	64
+	+	101	29
+	+	103	32
+	+	104	72
+	+	105	29
+	+	112	9
+	+	119	32
+	+	120	30
+	+	121	37
+	+	122	8
+	+	121	32
+	+	122	54
+	+	123	32
+	+	125	14
+	+	126	14
+	+	127	3
+	+	113	20
+	+	121	27
+	+	123	16
+	+	127	32
+	+	126	77
+	+	127	31
+	+	128	69
+	+	126	104
+	+	129	17
+	+	128	64
+
+> /back/android-4.1.2/frameworks/base/services/modbus_jni/com_mokoid_server_ModbusService.cpp
+	"	47	30
+	^	90	30
+	.	90	29
+	+	115	45
+	+	116	0
+	+	96	0
+	+	112	0
+	+	115	22
+	+	118	48
+	+	128	24
+	+	73	4
+	+	7	0
+	+	73	4
+	+	35	11
+	+	38	6
+	+	47	21
+	+	38	0
+	+	45	13
+	+	44	43
+	+	47	19
+	+	39	38
+	+	47	21
+	+	33	10
+	+	63	13
+	+	90	29
+
+> /back/android-4.1.2/frameworks/base/core/java/android/os/IModbusService.aidl
+	"	5	6
+	^	5	7
+	.	5	6
+	+	5	6
+
+> /home/shared/linuxmbus/seri1.c
+	"	23	43
+	.	311	0
+	+	146	34
+	+	185	29
+	+	13	42
+	+	115	26
+	+	116	24
+	+	13	15
+	+	344	25
+	+	345	19
+	+	345	0
+	+	284	33
+	+	285	34
+	+	286	16
+	+	297	25
+	+	298	25
+	+	299	25
+	+	300	25
+	+	301	25
+	+	302	25
+	+	303	33
+	+	304	57
+	+	305	15
+	+	283	30
+	+	303	14
+	+	305	41
+	+	306	63
+	+	308	40
+	+	312	49
+	+	312	33
+	+	307	31
+	+	308	10
+	+	309	41
+	+	312	11
+	+	309	12
+	+	312	0
+	+	310	34
+	+	310	0
+	+	309	37
+	+	310	0
+	+	311	0
+
+> /back/android-4.1.2/hardware/libhardware/modules/modbus/seri.h
+	"	6	0
+	.	12	0
+	+	2	9
+	+	1	3
+	+	17	5
+	+	12	0
+
+> /back/android-4.1.2/hardware/libhardware/modules/modbus/seri.c
+	"	27	0
+
+> /back/android-4.1.2/frameworks/base/services/modbus_jni/Android.mk
+	"	51	20
+	^	51	21
+	.	51	20
+	+	51	20
+
+> /back/modbus_jni/com_mokoid_server_ModbusService.cpp
+	"	106	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/modbus-build.sh
+	"	6	77
+	^	6	78
+	.	6	77
+	+	3	0
+	+	4	0
+	+	2	39
+	+	5	83
+	+	5	0
+	+	6	77
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/modbus_jni/com_mokoid_server_ModbusService.cpp
+	"	133	109
+	^	133	110
+	.	133	109
+	+	13	19
+	+	67	0
+	+	93	1
+	+	131	2
+	+	112	1
+	+	110	2
+	+	105	4
+	+	98	5
+	+	102	6
+	+	95	18
+	+	135	0
+	+	132	55
+	+	133	109
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/modbus_jni/Android.mk
+	"	35	10
+	^	35	11
+	.	35	10
+	+	47	0
+	+	46	20
+	+	35	10
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/modbus_jni/onload.cpp
+	"	39	45
+	^	39	46
+	.	39	45
+	+	24	0
+	+	23	57
+	+	39	45
+
+> /back/android-4.1.2/packages/experimental/modbustest/src/com/example/modbustest/MainActivity.java
+	"	35	7
+	^	35	8
+	.	30	10
+	+	12	17
+	+	25	8
+	+	30	9
+	+	34	1
+	+	12	16
+	+	25	9
+	+	30	10
+	+	35	9
+	+	35	9
+	+	12	1
+	+	35	9
+	+	35	9
+	+	35	33
+	+	35	0
+	+	12	0
+	+	25	8
+	+	30	9
+	+	35	8
+	+	35	8
+	+	35	8
+	+	38	55
+	+	39	40
+	+	40	0
+	+	38	51
+	+	42	10
+	+	45	31
+	+	65	7
+	+	35	0
+	+	46	0
+	+	40	29
+	+	25	9
+	+	30	10
+
+> /back/android-4.1.2/frameworks/base/services/jni/com_android_server_SerialService.cpp
+	"	67	0
+
+> /back/android-4.1.2/packages/experimental/modbustest/Android.mk
+	"	4	23
+	^	4	24
+	.	4	23
+	+	4	23
+
+> /back/android-4.1.2/frameworks/base/services/java/com/android/server/SystemServer.java
+	"	660	14
+	^	660	15
+	.	660	14
+	+	655	17
+	+	656	46
+	+	657	72
+	+	658	35
+	+	659	64
+	+	655	13
+	+	660	14
+
+> /back/android-4.1.2/packages/experimental/modbustest/java/com/mokoid/server/ModbusService.java
+	"	22	13
+	^	22	14
+	.	22	13
+	+	22	13
+
+> /back/modbus-backup/modbustest/java/com/mokoid/server/ModbusService.java
+	"	14	55
+	^	14	56
+	.	14	55
+	+	14	55
+
+> /back/android-4.1.2/frameworks/base/Android.mk
+	"	137	42
+	^	137	43
+	.	137	42
+	+	137	42
+
+> /back/modbus-backup/IModbusService.aidl
+	"	1	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/packages/experimental/modbustest/src/com/example/modbustest/MainActivity.java
+	"	24	48
+	^	47	0
+	.	48	0
+	+	51	0
+	+	33	0
+	+	33	0
+	+	33	0
+	+	37	0
+	+	51	0
+	+	37	38
+	+	38	29
+	+	48	37
+	+	48	27
+	+	54	33
+	+	55	41
+	+	56	26
+	+	57	27
+	+	17	25
+	+	18	40
+	+	58	6
+	+	54	5
+	+	48	7
+	+	23	8
+	+	28	9
+	+	24	12
+	+	27	12
+	+	14	39
+	+	35	38
+	+	28	11
+	+	23	9
+	+	14	1
+	+	48	25
+	+	20	12
+	+	48	18
+	+	48	22
+	+	51	34
+	+	65	47
+	+	66	13
+	+	67	49
+	+	68	37
+	+	69	58
+	+	51	7
+	+	4	27
+	+	67	12
+	+	66	0
+	+	65	14
+	+	72	33
+	+	74	18
+	+	65	27
+	+	20	35
+	+	48	37
+	+	51	17
+	+	72	16
+	+	74	13
+	+	75	11
+	+	74	19
+	+	75	12
+	+	74	0
+	+	75	52
+	+	76	37
+	+	77	66
+	+	79	19
+	+	69	61
+	+	49	29
+	+	54	8
+	+	72	34
+	+	73	19
+	+	75	14
+	+	72	34
+	+	20	22
+	+	48	36
+	+	51	17
+	+	75	42
+	+	79	17
+	+	52	22
+	+	72	17
+	+	52	55
+	+	53	34
+	+	73	26
+	+	12	38
+	+	34	1
+	+	35	23
+	+	19	1
+	+	35	50
+	+	36	12
+	+	37	17
+	+	65	1
+	+	80	6
+	+	51	8
+	+	50	29
+	+	52	20
+	+	35	45
+	+	38	8
+	+	39	8
+	+	47	0
+	+	40	23
+	+	41	23
+	+	42	23
+	+	43	23
+	+	44	23
+	+	45	23
+	+	46	15
+	+	48	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/packages/experimental/modbustest/java/com/mokoid/server/ModbusService.java
+	"	10	41
+	^	9	45
+	.	9	44
+	+	1	17
+	+	26	1
+	+	27	1
+	+	28	1
+	+	13	10
+	+	26	0
+	+	27	0
+	+	28	0
+	+	23	0
+	+	19	0
+	+	15	0
+	+	6	0
+	+	8	12
+	+	9	55
+	+	19	12
+	+	23	33
+	+	24	0
+	+	14	47
+	+	18	49
+	+	22	48
+	+	9	25
+	+	10	40
+	+	11	66
+	+	10	7
+	+	12	6
+	+	9	31
+	+	1	27
+	+	4	0
+	+	1	0
+	+	9	44
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/jni/com_mokoid_server_ModbusService.cpp
+	"	79	4
+	^	93	40
+	.	93	39
+	+	13	18
+	+	67	5
+	+	95	0
+	+	94	110
+	+	96	1
+	+	93	39
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/jni/onload.cpp
+	"	40	0
+	.	37	0
+	+	39	58
+	+	71	49
+	+	38	54
+	+	69	46
+	+	37	54
+	+	65	46
+	+	37	53
+	+	66	0
+	+	37	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/jni/Android.mk
+	"	19	4
+	.	19	0
+	+	21	41
+	+	20	38
+	+	19	38
+	+	19	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/jni/com_android_server_VibratorService.cpp
+	"	42	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/jni/com_android_server_connectivity_Vpn.cpp
+	"	454	0
+
+> /workspace/ModbusService/framework/base/service/jni/Android.mk
+	"	32	18
+	^	32	19
+	.	54	15
+	+	1	0
+	+	34	31
+	+	46	24
+	+	54	15
+
+> /workspace/ModbusService/hal/modbus/Android.mk
+	"	3	23
+	^	3	24
+	.	3	23
+	+	3	23
+
+> /workspace/ModbusService/hal/modbus/modbus.c
+	"	106	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/hardware/libhardware/include/hardware/modbus.h
+	"	18	61
+	^	18	61
+	.	18	61
+	+	26	5
+	+	23	10
+	+	6	18
+	+	7	42
+	+	14	23
+	+	15	29
+	+	13	24
+	+	18	89
+	+	17	88
+	+	18	89
+	+	19	1
+	+	9	24
+	+	10	29
+	+	11	1
+	+	17	60
+	+	18	61
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/core/java/android/os/IModbusService.aidl
+	"	5	25
+	^	5	26
+	.	5	25
+	+	4	18
+	+	5	5
+	+	4	18
+	+	5	30
+	+	4	23
+	+	5	26
+	+	4	23
+	+	5	25
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/NativeDaemonEvent.java
+	"	39	11
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/packages/experimental/modbustest/java/Android.mk
+	"	10	23
+	^	10	24
+	.	10	23
+	+	12	20
+	+	11	0
+	+	8	41
+	+	10	23
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/Android.mk
+	"	21	24
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/ModbusService.java
+	"	15	35
+	^	18	22
+	.	18	21
+	+	8	11
+	+	12	11
+	+	16	11
+	+	8	8
+	+	12	8
+	+	16	8
+	+	8	13
+	+	12	13
+	+	16	13
+	+	17	37
+	+	18	21
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/packages/experimental/modbustest/Android.mk
+	"	7	28
+	^	7	29
+	.	7	29
+	+	6	31
+	+	4	21
+	+	2	21
+	+	7	29
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/packages/experimental/modbustest/AndroidManifest.xml
+	"	9	47
+	^	9	48
+	.	9	47
+	+	11	7
+	+	9	47
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/mokoid/com.mokoid.server.xml
+	"	4	46
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/mokoid/Android.mk
+	"	1	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/SystemServer.java
+	"	55	0
+	^	659	65
+	.	659	64
+	+	669	17
+	+	670	46
+	+	671	72
+	+	672	33
+	+	673	64
+	+	662	17
+	+	663	46
+	+	664	72
+	+	665	33
+	+	666	64
+	+	661	0
+	+	655	17
+	+	656	46
+	+	657	72
+	+	658	21
+	+	659	0
+	+	658	30
+	+	659	64
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/packages/experimental/ExampleImsFramework/Android.mk
+	"	16	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/packages/experimental/ExampleImsFramework/Android
+	"	1	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/packages/experimental/Modbus/AndroidManifest.xml
+	"	13	20
+	^	13	21
+	.	13	21
+	+	1	0
+	+	7	38
+	+	3	28
+	+	13	21
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/packages/experimental/Modbus/Android.mk
+	"	6	22
+	^	6	23
+	.	6	22
+	+	1	28
+	+	2	21
+	+	2	22
+	+	4	48
+	+	6	22
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/packages/experimental/ExampleImsFramework/AndroidManifest.xml
+	"	41	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/packages/experimental/ExampleImsFramework/README
+	"	1	0
+
+> /home/Android-examples/sources/ch09/s3c6410_leds_hal/test_leds_hal_jni/proguard.cfg
+	"	1	0
+
+> /home/Android-examples/sources/ch09/s3c6410_leds_hal/test_leds_hal_jni/androidmanifest.xml
+	"	21	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/IModbusService.java
+	"	16	40
+	^	16	41
+	.	16	40
+	+	8	54
+	+	9	1
+	+	13	1
+	+	17	1
+	+	9	0
+	+	12	41
+	+	16	40
+
+> /workspace/modbus_service/ModbusService.java
+	"	3	18
+	.	3	17
+	+	3	17
+
+> /workspace/modbus_service/IModbusService.java
+	"	10	4
+	^	17	57
+	.	17	56
+	+	3	28
+	+	4	54
+	+	5	21
+	+	6	21
+	+	8	47
+	+	9	32
+	+	11	5
+	+	5	22
+	+	11	16
+	+	5	0
+	+	11	29
+	+	12	30
+	+	11	32
+	+	12	34
+	+	15	48
+	+	16	68
+	+	17	56
+
+> /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal_service/jar_build.sh
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal_service/bin/classes/mobile/android/leds/hal/service/ledhalservice.class
+	"	1	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/Android.mk
+	"	137	42
+	^	137	43
+	.	137	42
+	+	139	42
+	+	136	45
+	+	139	0
+	+	310	0
+	+	138	42
+	+	137	42
+
+> /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal_jni/build.sh
+	"	1	0
+
+> /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal_jni/Android.mk
+	"	20	6
+	^	20	7
+	.	20	7
+	+	23	0
+	+	21	0
+	+	20	7
+
+> /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal_jni/LedHalService.cpp
+	"	1	0
+
+> /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal/build.sh
+	"	19	4
+
+> /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal_jni/android.mk
+	"	7	85
+	^	7	86
+	.	7	21
+	+	7	21
+
+> /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal/leds_hal.c
+	"	13	34
+
+> /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal/struct_inheritance.c
+	"	19	0
+
+> /home/Android-examples/sources/ch09/s3c6410_leds_hal/leds_hal/Android.mk
+	"	9	18
+	^	9	19
+	.	9	29
+	+	1	28
+	+	2	21
+	+	4	54
+	+	5	32
+	+	9	29
+
+> /home/Android-examples/sources/ch09/s3c6410_leds_hal/build_s3c6410.sh
+	"	14	35
+
+> /home/Android-examples/sources/ch09/s3c6410_leds_hal/build.sh
+	"	1	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/system/core/init/init.c
+	"	243	18
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/hardware/libhardware/modules/modbus/modbus.c
+	"	30	67
+	^	30	68
+	.	30	68
+	+	1	28
+	+	10	56
+	+	11	43
+	+	10	43
+	+	12	27
+	+	15	109
+	+	16	5
+	+	14	30
+	+	16	59
+	+	19	95
+	+	20	95
+	+	23	59
+	+	24	24
+	+	28	46
+	+	29	3
+	+	38	1
+	+	29	8
+	+	31	19
+	+	30	11
+	+	31	7
+	+	30	0
+	+	31	0
+	+	37	4
+	+	29	3
+	+	30	7
+	+	31	25
+	+	33	11
+	+	30	12
+	+	35	16
+	+	34	19
+	+	36	39
+	+	40	110
+	+	41	1
+	+	44	74
+	+	45	13
+	+	46	51
+	+	47	22
+	+	50	51
+	+	53	47
+	+	56	37
+	+	67	3
+	+	69	4
+	+	70	4
+	+	74	8
+	+	74	8
+	+	74	4
+	+	69	18
+	+	74	0
+	+	71	81
+	+	72	17
+	+	74	0
+	+	73	22
+	+	75	29
+	+	76	58
+	+	78	12
+	+	67	30
+	+	80	0
+	+	81	60
+	+	82	77
+	+	84	23
+	+	85	35
+	+	86	27
+	+	88	12
+	+	91	85
+	+	92	57
+	+	91	60
+	+	92	35
+	+	91	63
+	+	94	12
+	+	97	95
+	+	98	14
+	+	99	48
+	+	100	22
+	+	103	59
+	+	105	12
+	+	91	22
+	+	97	21
+	+	91	68
+	+	97	67
+	+	29	56
+	+	30	56
+	+	29	67
+	+	30	68
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/jni/com_android_server_ModbusService.cpp
+	"	50	59
+	^	68	100
+	.	68	99
+	+	1	31
+	+	2	16
+	+	3	20
+	+	4	43
+	+	12	1
+	+	15	85
+	+	16	8
+	+	15	66
+	+	16	52
+	+	17	61
+	+	19	27
+	+	19	28
+	+	20	53
+	+	21	19
+	+	24	57
+	+	27	74
+	+	30	28
+	+	31	53
+	+	32	22
+	+	35	20
+	+	29	17
+	+	35	56
+	+	30	15
+	+	36	26
+	+	36	37
+	+	37	18
+	+	40	102
+	+	41	103
+	+	42	5
+	+	44	60
+	+	47	43
+	+	48	90
+	+	49	52
+	+	50	76
+	+	51	59
+	+	52	24
+	+	54	63
+	+	55	21
+	+	57	63
+	+	58	17
+	+	61	51
+	+	62	52
+	+	63	30
+	+	27	71
+	+	35	54
+	+	30	0
+	+	15	84
+	+	24	55
+	+	64	47
+	+	63	46
+	+	64	44
+	+	63	50
+	+	67	60
+	+	68	115
+	+	70	4
+	+	70	2
+	+	16	13
+	+	24	54
+	+	48	47
+	+	68	99
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/frameworks/base/services/java/com/android/server/IModbsService.java
+	"	20	0
+	^	19	57
+	.	19	56
+	+	5	56
+	+	6	54
+	+	7	21
+	+	8	21
+	+	10	45
+	+	11	30
+	+	13	17
+	+	10	20
+	+	13	36
+	+	14	34
+	+	17	48
+	+	18	68
+	+	19	56
+
+> /usr/lib/jvm/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/hardware/libhardware/modules/modbus/Android.mk
+	"	9	0
+	^	9	30
+	.	9	29
+	+	1	28
+	+	2	21
+	+	5	54
+	+	9	29
+
+> /usr/share/vim/vim74/doc/fold.txt
+	"	271	7
+
+> ~/seri1.c
+	"	1	0
+	.	1	0
+	+	1	19
+	+	1	0
+
+> /home/shared/linuxmbus/seri.c
+	"	115	22
+	^	109	2
+	.	109	1
+	+	109	3
+	+	81	26
+	+	82	24
+	+	98	31
+	+	110	5
+	+	109	1
+
+> /home/shared/serial/Makefile
+	"	2	0
+	^	2	1
+	.	2	0
+	+	1	0
+	+	2	0
+
+> /home/shared/linuxmbus/read_reg.c
+	"	348	0
+
+> /home/shared/linuxmbus/test.c
+	"	46	25
+	^	59	17
+	.	59	17
+	+	39	14
+	+	40	1
+	+	41	3
+	+	59	0
+	+	96	2
+	+	59	0
+	+	96	0
+	+	94	27
+	+	93	23
+	+	92	22
+	+	91	69
+	+	90	62
+	+	89	61
+	+	88	61
+	+	87	25
+	+	86	65
+	+	85	25
+	+	84	26
+	+	83	25
+	+	82	18
+	+	63	66
+	+	63	36
+	+	60	1
+	+	59	19
+	+	35	19
+	+	27	8
+	+	26	8
+	+	32	0
+	+	43	18
+	+	63	36
+	+	64	17
+	+	65	37
+	+	31	17
+	+	43	0
+	+	42	26
+	+	44	18
+	+	45	26
+	+	46	26
+	+	52	15
+	+	34	9
+	+	52	27
+	+	54	27
+	+	42	18
+	+	52	24
+	+	36	26
+	+	63	25
+	+	65	30
+	+	63	25
+	+	36	27
+	+	37	0
+	+	32	0
+	+	32	21
+	+	63	18
+	+	65	28
+	+	32	0
+	+	63	25
+	+	65	35
+	+	37	24
+	+	63	17
+	+	67	0
+	+	65	29
+	+	37	22
+	+	56	16
+	+	37	22
+	+	63	46
+	+	37	24
+	+	64	12
+	+	37	21
+	+	49	26
+	+	50	0
+	+	49	9
+	+	50	20
+	+	37	22
+	+	48	11
+	+	51	22
+	+	37	22
+	+	63	1
+	+	63	27
+	+	92	20
+	+	63	1
+	+	63	0
+	+	66	15
+	+	68	31
+	+	69	32
+	+	70	36
+	+	68	13
+	+	70	55
+	+	71	2
+	+	61	11
+	+	80	36
+	+	81	26
+	+	59	69
+	+	63	0
+	+	43	4
+	+	43	0
+	+	62	0
+	+	79	28
+	+	71	2
+	+	78	6
+	+	59	17
+
+> /home/shared/test/test.cpp
+	"	34	0
+	^	31	22
+	.	31	21
+	+	27	12
+	+	21	0
+	+	15	13
+	+	10	0
+	+	6	12
+	+	8	21
+	+	10	0
+	+	9	4
+	+	10	0
+	+	15	31
+	+	10	0
+	+	15	0
+	+	10	0
+	+	11	10
+	+	15	35
+	+	16	1
+	+	17	0
+	+	20	29
+	+	12	12
+	+	13	13
+	+	21	1
+	+	22	3
+	+	12	15
+	+	13	18
+	+	25	27
+	+	28	1
+	+	30	39
+	+	6	8
+	+	25	28
+	+	30	45
+	+	29	13
+	+	31	22
+	+	32	24
+	+	33	4
+	+	31	4
+	+	3	19
+	+	4	18
+	+	31	21
+
+> /home/shared/linuxmbus/-MiniBufExplorer-
+	"	1	14
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> /home/shared/linuxmbus/modbus_rtu.c
+	"	777	0
+
+> /home/shared/linuxmbus/modbus_tcp.h
+	"	1	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/hardware/libhardware/modules/virtualio/virtualio.c
+	"	67	0
+	^	67	0
+
+> /opt/FriendlyARM/tiny4412/android/android-4.1.2/hardware/libhardware/include/hardware/virtualio.h
+	"	24	78
+	^	24	79
+	.	24	78
+	+	1	36
+	+	1	37
+	+	30	5
+	+	3	29
+	+	14	49
+	+	16	26
+	+	17	29
+	+	20	26
+	+	23	7
+	+	14	38
+	+	23	61
+	+	24	61
+	+	25	1
+	+	27	11
+	+	14	47
+	+	23	77
+	+	24	78
+
+> /home/shared/modbus/test.c
+	"	27	0
+	^	2	19
+	.	3	0
+	+	9	32
+	+	10	1
+	+	17	7
+	+	6	17
+	+	17	46
+	+	19	12
+	+	12	14
+	+	15	33
+	+	19	13
+	+	7	18
+	+	19	18
+	+	16	7
+	+	14	0
+	+	16	21
+	+	19	24
+	+	26	4
+	+	21	14
+	+	23	22
+	+	25	20
+	+	2	19
+	+	2	19
+	+	3	0
+
+> /home/shared/modbus/modbus_drv.c
+	"	29	0
+	.	315	0
+	+	260	67
+	+	260	0
+	+	260	4
+	+	256	38
+	+	260	14
+	+	260	65
+	+	260	67
+	+	260	55
+	+	261	0
+	+	262	0
+	+	263	0
+	+	264	0
+	+	265	0
+	+	266	0
+	+	267	0
+	+	268	0
+	+	269	0
+	+	261	54
+	+	275	0
+	+	262	11
+	+	263	54
+	+	264	10
+	+	260	11
+	+	261	8
+	+	260	10
+	+	262	9
+	+	263	11
+	+	264	56
+	+	265	56
+	+	266	56
+	+	267	11
+	+	268	56
+	+	269	56
+	+	275	49
+	+	275	0
+	+	275	0
+	+	275	0
+	+	271	0
+	+	272	0
+	+	273	0
+	+	274	0
+	+	271	13
+	+	269	57
+	+	269	0
+	+	271	0
+	+	270	56
+	+	271	56
+	+	272	56
+	+	273	55
+	+	274	56
+	+	275	0
+	+	260	0
+	+	317	0
+	+	315	0
+
+> /home/shared/libmodbus-0.0.4/mbm.c
+	"	38	0
+
+> /home/shared/libmodbus-0.0.4/modbus.h
+	"	69	43
+
+> /home/shared/libmodbus-0.0.4/-MiniBufExplorer-
+	"	1	30
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> /home/shared/libmodbus-0.0.4/mbs.c
+	"	1	0
+
+> /home/shared/libmodbus-0.0.4/commun.c
+	"	111	2
+
+> /home/shared/linuxmbus/modbus_rtu.h
+	"	1	0
+
+> /home/shared/libmodbus-0.0.4/README
+	"	253	0
+
+> /home/shared/test/test.c
+	"	7	0
+	^	2	17
+	.	2	0
+	+	4	31
+	+	5	1
+	+	6	9
+	+	2	0
+
+> /etc/chromium-browser/default
+	"	5	30
+	^	5	31
+	.	5	16
+	+	5	16
+
+> ~/.bashrc
+	"	103	15
+	^	103	16
+	.	103	16
+	+	104	26
+	+	103	16

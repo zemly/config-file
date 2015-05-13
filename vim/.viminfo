@@ -1,0 +1,906 @@
+# 这个 viminfo 文件是由 Vim 7.4 所产生。
+# 如果想要自行修改请特别小心！
+
+# 文件被写的时候 ‘encoding’ 的值
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 上个 Search 图案：
+~MSle0~/68
+
+# 最后替换的字符串
+$//
+
+# 命令行 历史记录 (从新到旧)：
+:w
+:W
+:make x
+:68
+:q
+:bp
+:wq
+:bn
+:tab new ds18b20_drv.c
+:tab new Makefile
+:tab new ds18b20_dev.c
+:check_debug
+:347
+:tab o
+:tab new wordcount.c
+:tab 0
+:tab O
+:q!
+:.cc
+:WW
+
+# 查找字符串 历史记录 (从新到旧)：
+?/68
+?/-werror
+?/check
+?/check_debug
+?/347
+
+# 表达式 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 寄存器:
+"0	CHAR	0
+	4412释放数据线，即输出高电平，等待15~60us
+"1	LINE	0
+	
+"2	LINE	0
+	                
+"3	CHAR	0
+	
+	
+"4	LINE	0
+	/*************************************************************************
+"5	LINE	0
+	
+	
+"6	LINE	0
+	
+"7	LINE	0
+	
+"8	LINE	0
+	    > Author: 
+"9	CHAR	0
+	/*************************************************************************
+	    > Author: 
+		> M
+""-	CHAR	0
+	 return
+
+# 文件标记:
+'Z  69  7  /home/luo/shared/ds18b20/ds18b20_drv.c
+'0  69  7  /home/luo/shared/ds18b20/ds18b20_drv.c
+'1  31  42  /home/luo/shared/ds18b20/ds18b20_drv.c
+'2  191  53  /home/luo/shared/ds18b20/ds18b20_drv.c
+'3  227  0  /home/luo/shared/ds18b20/ds18b20_drv.c
+'4  165  0  /home/luo/shared/ds18b20/ds18b20_drv.c
+'5  247  0  /home/luo/shared/ds18b20/ds18b20_drv.c
+'6  9  39  /home/luo/shared/ds18b20/Makefile
+'7  12  0  /home/luo/shared/ds18b20/Makefile
+'8  39  49  /home/luo/shared/wordcount/wordcount_jni/src/WordCountNDKTestMain.java
+'9  7  30  /home/luo/shared/wordcount/wordcount_jni/jni/Android.mk
+
+# 跳转列表 (从新到旧):
+-'  69  7  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  124  7  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  66  4  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  53  25  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  55  97  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  96  0  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  97  0  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  104  19  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  84  18  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  113  4  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  1  0  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  31  42  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  191  53  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  222  6  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  241  0  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  227  0  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  247  7  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  19  3  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  20  1  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  165  0  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  1  0  /home/luo/shared/ds18b20/-MiniBufExplorer-
+-'  2  0  /home/luo/shared/ds18b20/-MiniBufExplorer-
+-'  273  0  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  9  39  /home/luo/shared/ds18b20/Makefile
+-'  163  22  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  12  0  /home/luo/shared/ds18b20/Makefile
+-'  173  42  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  1  0  /home/luo/shared/ds18b20/Makefile
+-'  58  0  /home/luo/shared/ds18b20/ds18b20_dev.c
+-'  67  0  /home/luo/shared/ds18b20/ds18b20_dev.c
+-'  19  0  /home/luo/shared/ds18b20/ds18b20_dev.c
+-'  256  0  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  6  19  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  263  0  /home/luo/shared/ds18b20/ds18b20_drv.c
+-'  39  49  /home/luo/shared/wordcount/wordcount_jni/src/WordCountNDKTestMain.java
+-'  40  0  /home/luo/shared/wordcount/wordcount_jni/src/WordCountNDKTestMain.java
+-'  32  0  /home/luo/shared/wordcount/wordcount_jni/src/WordCountNDKTestMain.java
+-'  26  0  /home/luo/shared/wordcount/wordcount_jni/src/WordCountNDKTestMain.java
+-'  21  0  /home/luo/shared/wordcount/wordcount_jni/src/WordCountNDKTestMain.java
+-'  41  0  /home/luo/shared/wordcount/wordcount_jni/src/WordCountNDKTestMain.java
+-'  1  0  /home/luo/shared/wordcount/wordcount_jni/src/WordCountNDKTestMain.java
+-'  7  30  /home/luo/shared/wordcount/wordcount_jni/jni/Android.mk
+-'  2  0  /home/luo/shared/wordcount/wordcount_jni/jni/Android.mk
+-'  46  4  /home/luo/shared/wordcount/wordcount_jni/jni/ndk_wordcount.c
+-'  1  0  /home/luo/shared/wordcount/wordcount_jni/jni/ndk_wordcount.c
+-'  30  0  /home/luo/shared/wordcount/ndk_wordcount.c
+-'  1  0  /home/luo/shared/wordcount/ndk_wordcount.c
+-'  1  10  /home/luo/shared/wordcount/ndk_wordcount.app
+-'  9  56  ~/桌面/ch341_drv/ch341.c
+-'  1  0  ~/桌面/ch341_drv/ch341.c
+-'  26  30  ~/桌面/ch341/dnw_for_linux/secbulk/secbulk.c
+-'  1  0  ~/桌面/ch341/dnw_for_linux/secbulk/Makefile
+-'  1  0  ~/桌面/ch341/dnw_for_linux/secbulk/secbulk.c
+-'  286  5  ~/桌面/ch341/ch341.c
+-'  271  8  ~/桌面/ch341/ch341.c
+-'  272  5  ~/桌面/ch341/ch341.c
+-'  1  1  ~/桌面/ch341/ch341.c
+-'  8  0  ~/桌面/ch341/Makefile
+-'  1  0  /lib/modules/3.16.0-30-generic/modules.dep
+-'  32  57  /home/luo/shared/wordcount/wordcount.c
+-'  1  0  /home/luo/shared/wordcount/wordcount.ko
+-'  33  44  /home/luo/shared/wordcount/wordcount.c
+-'  46  10  /home/luo/shared/wordcount/wordcount.c
+-'  2  0  /home/luo/shared/wordcount/Makefile
+-'  57  15  /home/luo/shared/wordcount/wordcount.c
+-'  56  8  /home/luo/shared/wordcount/wordcount.c
+-'  37  1  /home/luo/shared/wordcount/wordcount.c
+-'  2  15  /home/luo/shared/wordcount/-MiniBufExplorer-
+-'  1  0  /home/luo/shared/wordcount/wordcount.c
+-'  43  0  /home/luo/shared/wordcount/wordcount.c
+-'  79  10  /home/luo/shared/wordcount/wordcount.c
+-'  82  32  /home/luo/shared/wordcount/wordcount.c
+-'  48  11  /home/luo/shared/wordcount/wordcount.c
+-'  89  0  ~/.vimrc
+-'  94  10  ~/.vimrc
+-'  53  34  /home/luo/shared/wordcount/wordcount.c
+-'  42  1  /home/luo/shared/wordcount/wordcount.c
+-'  23  37  /home/luo/shared/wordcount/wordcount.c
+-'  51  0  /home/luo/shared/wordcount/wordcount.c
+-'  50  4  /home/luo/shared/wordcount/wordcount.c
+-'  75  0  /home/luo/shared/wordcount/wordcount.c
+-'  9  22  /home/luo/shared/wordcount/wordcount.c
+-'  17  43  /home/luo/shared/wordcount/wordcount.c
+-'  11  3  /home/luo/shared/wordcount/wordcount.c
+-'  27  19  /home/luo/shared/helloworld/hello.c
+-'  22  0  /home/luo/shared/helloworld/hello.c
+-'  1  11  /home/luo/shared/helloworld/-MiniBufExplorer-
+-'  2  0  /home/luo/shared/helloworld/-MiniBufExplorer-
+-'  2  37  /home/luo/shared/helloworld/Makefile
+-'  30  0  /home/luo/shared/helloworld/hello.c
+-'  34  0  /home/luo/shared/helloworld/hello.c
+-'  80  29  ~/.vimrc
+-'  24  0  ~/.vimrc
+-'  19  0  ~/.vimrc
+
+# 文件内的标记历史记录 (从新到旧):
+
+> /home/luo/shared/ds18b20/ds18b20_drv.c
+	"	69	7
+	^	69	8
+	.	127	8
+	+	125	73
+	+	130	45
+	+	132	20
+	+	138	16
+	+	137	16
+	+	138	42
+	+	144	0
+	+	137	35
+	+	139	60
+	+	140	60
+	+	143	48
+	+	144	0
+	+	46	0
+	+	113	0
+	+	113	0
+	+	112	0
+	+	46	0
+	+	47	0
+	+	60	36
+	+	61	2
+	+	79	0
+	+	79	0
+	+	80	0
+	+	87	39
+	+	88	1
+	+	89	14
+	+	81	24
+	+	82	20
+	+	83	21
+	+	86	0
+	+	84	40
+	+	48	29
+	+	50	18
+	+	51	34
+	+	90	49
+	+	91	5
+	+	92	73
+	+	93	14
+	+	88	1
+	+	97	36
+	+	98	1
+	+	96	4
+	+	97	0
+	+	102	27
+	+	103	5
+	+	104	18
+	+	104	65
+	+	105	22
+	+	106	23
+	+	109	14
+	+	104	65
+	+	106	47
+	+	104	74
+	+	97	0
+	+	104	66
+	+	62	0
+	+	52	46
+	+	53	19
+	+	52	24
+	+	53	67
+	+	54	76
+	+	55	68
+	+	58	0
+	+	55	97
+	+	55	0
+	+	56	93
+	+	58	0
+	+	62	22
+	+	53	24
+	+	56	46
+	+	65	33
+	+	67	33
+	+	69	31
+	+	66	0
+	+	65	33
+	+	67	33
+	+	69	89
+	+	70	79
+	+	71	21
+	+	50	42
+	+	73	16
+	+	75	0
+	+	73	4
+	+	71	4
+	+	75	75
+	+	77	39
+	+	124	23
+	+	124	22
+	+	129	4
+	+	125	13
+	+	126	0
+	+	125	4
+	+	128	4
+	+	126	41
+	+	127	16
+	+	132	23
+	+	133	5
+	+	134	41
+	+	135	16
+	+	127	8
+	a	20	0
+
+> ~/NERD_tree_1
+	"	20	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> /home/luo/shared/ds18b20/-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> /home/luo/shared/ds18b20/Makefile
+	"	9	39
+	^	9	40
+	.	9	39
+	+	1	0
+	+	4	33
+	+	8	39
+	+	12	21
+	+	1	4
+	+	2	4
+	+	3	0
+	+	4	34
+	+	6	33
+	+	8	40
+	+	9	39
+
+> /home/luo/shared/ds18b20/ds18b20_dev.c
+	"	47	0
+	^	58	1
+	.	41	31
+	+	6	19
+	+	26	26
+	+	27	9
+	+	26	8
+	+	63	30
+	+	64	30
+	+	66	21
+	+	52	40
+	+	53	1
+	+	54	53
+	+	57	41
+	+	58	1
+	+	59	48
+	+	45	50
+	+	46	24
+	+	47	12
+	+	32	45
+	+	33	11
+	+	34	16
+	+	32	0
+	+	36	30
+	+	37	5
+	+	43	1
+	+	50	1
+	+	48	49
+	+	49	32
+	+	38	11
+	+	41	31
+
+> /home/luo/shared/wordcount/wordcount_jni/src/WordCountNDKTestMain.java
+	"	39	49
+	^	39	50
+	.	39	50
+	+	1	38
+	+	3	28
+	+	11	1
+	+	15	61
+	+	16	5
+	+	17	43
+	+	18	38
+	+	19	71
+	+	20	64
+	+	23	9
+	+	22	0
+	+	23	55
+	+	24	5
+	+	25	85
+	+	26	5
+	+	28	51
+	+	29	5
+	+	30	56
+	+	31	30
+	+	41	0
+	+	31	92
+	+	34	45
+	+	35	52
+	+	38	5
+	+	39	50
+
+> /home/luo/shared/wordcount/wordcount_jni/jni/Android.mk
+	"	7	30
+	^	7	31
+	.	7	30
+	+	1	26
+	+	2	21
+	+	4	34
+	+	5	0
+	+	4	4
+	+	7	30
+
+> /home/luo/shared/wordcount/wordcount_jni/jni/ndk_wordcount.c
+	"	46	4
+	^	46	5
+	.	46	5
+	+	31	8
+	+	47	19
+	+	31	23
+	+	33	69
+	+	35	61
+	+	37	96
+	+	38	95
+	+	39	56
+	+	40	76
+	+	42	16
+	+	43	5
+	+	44	38
+	+	45	33
+	+	47	15
+	+	48	1
+	+	50	117
+	+	51	1
+	+	53	43
+	+	54	44
+	+	55	20
+	+	56	5
+	+	57	37
+	+	58	5
+	+	59	14
+	+	46	5
+
+> /home/luo/shared/wordcount/ndk_wordcount.c
+	"	30	0
+	^	30	1
+	.	30	1
+	+	1	18
+	+	3	18
+	+	9	108
+	+	10	1
+	+	13	25
+	+	15	43
+	+	17	22
+	+	19	14
+	+	21	18
+	+	21	18
+	+	21	90
+	+	22	25
+	+	24	15
+	+	26	20
+	+	29	49
+	+	30	1
+	+	31	0
+	+	30	1
+
+> /adition/android-ndk-r10/samples/hello-jni/jni/Android.mk
+	"	22	16
+
+> /adition/android-ndk-r10/samples/hello-jni/default.properties
+	"	1	0
+
+> /adition/android-ndk-r10/samples/hello-jni/AndroidManifest.xml
+	"	1	0
+
+> /home/luo/shared/wordcount/ndk_wordcount.app
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	10
+
+> ~/桌面/ch341_drv/ch341.c
+	"	9	56
+	^	31	35
+	.	31	34
+	+	31	34
+
+> /usr/src/linux-headers-3.16.0-30-generic/Makefile
+	"	749	43
+
+> ~/桌面/ch341_drv/Makefile
+	"	1	0
+
+> ~/桌面/ch341/dnw_for_linux/secbulk/secbulk.c
+	"	26	30
+	^	27	34
+	.	27	33
+	+	27	33
+
+> ~/桌面/ch341/dnw_for_linux/secbulk/Makefile
+	"	1	0
+
+> ~/桌面/ch341/dnw_for_linux/secbulk/-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~/桌面/ch341/ch341.c
+	"	286	5
+
+> ~/桌面/ch341/Makefile
+	"	8	0
+
+> ~/桌面/ch341/-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> /lib/modules/3.16.0-30-generic/modules.dep
+	"	1	0
+
+> /home/luo/shared/wordcount/wordcount.ko
+	"	1	0
+
+> /home/luo/shared/wordcount/wordcount.c
+	"	32	57
+	^	46	11
+	.	46	11
+	+	75	1
+	+	79	10
+	+	47	41
+	+	48	0
+	+	23	68
+	+	23	20
+	+	12	22
+	+	23	4
+	+	23	15
+	+	23	27
+	+	23	3
+	+	23	0
+	+	23	47
+	+	23	0
+	+	17	44
+	+	23	6
+	+	71	13
+	+	50	50
+	+	52	15
+	+	16	0
+	+	52	57
+	+	53	0
+	+	23	26
+	+	53	35
+	+	54	15
+	+	54	16
+	+	55	50
+	+	56	18
+	+	59	14
+	+	49	45
+	+	59	44
+	+	61	36
+	+	62	43
+	+	63	12
+	+	64	45
+	+	66	5
+	+	70	0
+	+	69	11
+	+	70	42
+	+	71	13
+	+	72	0
+	+	65	25
+	+	18	29
+	+	52	54
+	+	77	21
+	+	76	46
+	+	49	25
+	+	77	27
+	+	78	58
+	+	25	0
+	+	23	27
+	+	40	31
+	+	42	10
+	+	42	0
+	+	41	28
+	+	82	0
+	+	82	0
+	+	82	0
+	+	80	1
+	+	82	32
+	+	82	54
+	+	82	0
+	+	45	0
+	+	23	0
+	+	60	28
+	+	63	23
+	+	82	0
+	+	75	18
+	+	57	18
+	+	25	0
+	+	26	0
+	+	27	0
+	+	38	0
+	+	39	0
+	+	35	0
+	+	38	0
+	+	39	0
+	+	38	0
+	+	28	0
+	+	35	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	30	30
+	+	31	28
+	+	35	5
+	+	34	0
+	+	35	54
+	+	36	24
+	+	37	1
+	+	63	28
+	+	60	15
+	+	63	24
+	+	65	46
+	+	71	35
+	+	15	24
+	+	79	55
+	+	46	11
+
+> /home/luo/shared/wordcount/-MiniBufExplorer-
+	"	1	16
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> /home/luo/shared/wordcount/Makefile
+	"	2	0
+	^	2	1
+	.	2	0
+	+	1	20
+	+	4	38
+	+	8	33
+	+	9	0
+	+	2	45
+	+	3	45
+	+	2	0
+	+	7	40
+	+	5	56
+	+	7	22
+	+	5	60
+	+	7	37
+	+	2	0
+	+	3	0
+	+	2	0
+
+> /home/luo/shared/wordcount/wordcount.mod.c
+	"	31	0
+
+> /adition/source_insight/序列号.txt
+	"	2	12
+	^	2	13
+	.	2	6
+	+	2	6
+
+> ~/.vimrc
+	"	89	0
+	^	89	0
+	.	89	0
+	+	1	0
+	+	4	12
+	+	56	13
+	+	90	11
+	+	89	0
+
+> /home/luo/shared/helloworld/hello.c
+	"	27	19
+	^	27	20
+	.	27	20
+	+	6	20
+	+	20	24
+	+	19	21
+	+	26	32
+	+	27	1
+	+	28	38
+	+	29	9
+	+	32	33
+	+	35	0
+	+	34	37
+	+	37	29
+	+	40	18
+	+	23	25
+	+	24	0
+	+	25	7
+	+	26	0
+	+	25	9
+	+	36	10
+	+	27	17
+	+	39	27
+	+	27	18
+	+	30	0
+	+	31	0
+	+	27	20
+
+> /home/luo/shared/helloworld/Makefile
+	"	4	1
+	^	2	35
+	.	2	34
+	+	2	8
+	+	5	0
+	+	4	33
+	+	2	34
+
+> /home/luo/shared/helloworld/-MiniBufExplorer-
+	"	1	11
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> /proc/kmsg
+	"	1	0
+
+> ~/.vim/plugin/visualmark.vim
+	"	35	1
+	^	35	2
+	.	35	1
+	+	29	1
+	+	35	1
+
+> /opt/FriendlyARM/tiny4412/android/NERD_tree_1
+	"	4	0
+	.	1	0
+	+	1	0
+
+> /home/luo/shared/helloworld/[Vundle] Installer
+	"	27	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/autoload/pathogen.vim
+	"	1	0
+
+> /opt/FriendlyARM/tiny4412/android/linux-3.5/main.c
+	"	21	0
+	^	21	1
+	.	21	0
+	+	6	19
+	+	21	0
+
+> /etc/ssh/sshd_config
+	"	28	18
+	^	28	19
+	.	28	18
+	+	46	23
+	+	28	18
+	+	29	0
+	+	28	18
+
+> /home/luo/shared/main.c
+	"	20	7
+	^	20	11
+	.	22	5
+	+	40	20
+	+	6	20
+	+	19	18
+	+	20	10
+	+	24	1
+	+	34	0
+	+	32	3
+	+	31	5
+	+	30	5
+	+	29	5
+	+	28	5
+	+	27	5
+	+	26	5
+	+	25	18
+	+	20	12
+	+	21	1
+	+	22	5
+
+> /home/luo/shared/first.c
+	"	1	0
+	^	6	1
+	.	6	1
+	+	1	18
+	+	3	1
+	+	4	31
+	+	5	0
+	+	6	2
+	+	12	1
+	+	16	12
+	+	17	1
+	+	6	1
+
+> /home/luo/shared/-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> /home/luo/shared/NERD_tree_1
+	"	4	2
+	.	1	0
+	+	1	0
+
+> ~/.vimprojects
+	"	2	0
+	^	12	0
+	.	3	0
+	+	11	5
+	+	3	0
+	k	2	0
+
+> /home/luo/shared/test
+	"	1	0
+
+> /etc/vim/doc/syntax.cnx
+	"	590	8
+
+> /adition/vim-plugin/cscope-15.8b/Makefile
+	"	1	0
+
+> /etc/vim/doc/quickfix.cnx
+	"	26	28
+
+> /home/luo/shared/__Tag_List__
+	"	3	0
+	.	6	0
+	+	6	0
+
+> ~/option-window
+	"	1	0
+	.	916	0
+	+	916	0
+
+> ~/.bashrc
+	"	78	0
+
+> /etc/vim/doc/help.cnx
+	"	1	0
+
+> ~/vim-dbg
+	"	3	147
+	^	3	148
+	.	3	148
+	+	3	148
+
+> /etc/lightdm/lightdm.conf
+	"	1	0

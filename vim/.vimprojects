@@ -1,0 +1,7 @@
+
+test=/home/luo/shared CD=. {
+ first
+ first.c
+ main.c
+ tags
+}
